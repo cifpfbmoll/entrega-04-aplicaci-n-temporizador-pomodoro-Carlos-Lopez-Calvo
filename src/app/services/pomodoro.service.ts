@@ -115,6 +115,7 @@ export class PomodoroService {
 
     this.stateSignal.update(state => ({
       ...state,
+      isRunning: false,
       isPaused: true
     }));
 
